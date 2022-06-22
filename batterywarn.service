@@ -1,0 +1,8 @@
+[Unit]
+Description=Warn when battery is low
+
+[Service]
+ExecStart=/home/dfuentes/bin/batterywarn
+
+[Install]
+WantedBy=multi-user.target
